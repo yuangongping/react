@@ -1,0 +1,44 @@
+.container{
+  border-radius: 3px;
+  .tableCol{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .buttonBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .tagBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    .tag{
+      margin: 0;
+    }
+  }
+  .logContext{
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-align: justify;
+    width: 400px;
+    word-break: break-all;
+  }
+  .pageBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    button{
+      border-radius: 2px;
+    }
+  }
+}
+.next-loading.loading > .next-loading-tip {
+  top:100px!important;
+}

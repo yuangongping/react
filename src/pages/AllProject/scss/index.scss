@@ -1,0 +1,47 @@
+.container{
+  border-radius: 3px;
+  .tableCol{
+    width: 100%;
+    box-sizing: border-box;
+    .tagBox{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      .tagStyle{
+        margin: 0;
+        border-radius: 0;
+        box-sizing: border-box;
+        border: 1px solid #a1c1f3;
+        &:nth-child(2n + 1) {
+          margin-top: 5px;
+        }
+        &:nth-child(1) {
+          margin-top: 0;
+        }
+        &:nth-child(2n) {
+          margin-top: 5px;
+        }
+        &:nth-child(2) {
+          margin-top: 0;
+        }
+      }
+    }
+    .linkBox{
+      color: #367df0;
+      a{
+        cursor: pointer;
+      }
+    }
+  }
+  .pageBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    button{
+      border-radius: 2px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-0",
+    {"styled-jsx": {"plugins": ["styled-jsx-plugin-sass"]}}
+  ],
+  "plugins": ["react", "transform-decorators-legacy"]
+}
